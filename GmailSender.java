@@ -30,7 +30,7 @@ import retrofit2.http.Multipart;
 
 public class GmailSender extends javax.mail.Authenticator {
 
-    private String mailhost = "mail.lgmindia.com";
+    private String mailhost = "smtp.gmail.com";
 
     private String user;
 
